@@ -1,16 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package logica;
 
-/**
- *
- * @author Marcos
- */
+import gui.Principal;
+
 public class TPIntegrador {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Principal ventana = new Principal();
+        ventana.setVisible(true);
+        ventana.setLocationRelativeTo(null);
+        
     }
 }
